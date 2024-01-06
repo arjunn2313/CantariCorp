@@ -1,0 +1,85 @@
+.abtsSection1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+.sec1Wrapper{
+    padding-top: 50px;
+    display: flex;
+    width: 95%; 
+    justify-content: center;
+}
+
+.sec1Slide1{
+     
+}
+.sec1Slide1{
+    width: 430px;
+    height: 348px;
+}
+
+.sec1Slide2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+     width: 50%;
+     
+    gap: 25px;
+}
+
+.sec1Slide2 h2{
+    font-size: 43px;
+    font-family: Mochiy Pop One;
+}
+
+.sec1Slide2 h2 span{
+    color: #0051A0;
+}
+
+.sec1Slide2 p{
+    color: gray;
+    line-height: 1.5rem;
+}
+
+.pdbtn{
+     width: 78%;
+}
+
+.pdbtn button{
+    padding: 15px 25px 15px 25px;
+    outline: none;
+    background-color: #0051A0;
+    color: #fff; 
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.abtSec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20vh;
+}
+.sec2Slid1 img{
+    width: 752px;
+    height: 343px;
+}
+
+.sec2Slid2 p{
+     letter-spacing: 1px;
+     font-size: 16px;
+    line-height: 1.9rem;
+     text-align: center;
+     color: gray;
+}
+
+.sec2Slid1 {
+    position: relative;
+}

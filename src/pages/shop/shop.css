@@ -1,0 +1,187 @@
+.shop{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopWrap1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 15vh;
+}
+
+.shopWrap1 h4{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.product-card{
+    display: flex;
+    gap: 10px;
+    flex-wrap:wrap;
+}
+
+.product{
+    width: 382px;
+    height: 483px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.product:hover{
+    box-shadow: 1px 1px 5px #0050a054;
+}
+
+.pImg{
+    width: 323px;
+    height: 324px;
+    border-radius: 10px;
+    background-color: #DDE4FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    gap: 25px;
+}
+
+.pImg img{
+    width: 266px;
+    height: 193px;
+}
+
+.pdHead{
+    width: 80%;
+}
+
+.pdHead span{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Open Sans;
+}
+
+.pdBtn{
+    padding-top: 5px;
+    display: flex;
+   width: 80%;
+   justify-content: space-between;
+
+}
+
+.new{
+    width: 80%;
+     display: flex;
+     justify-content: end;
+    padding-top: 20px;
+}
+
+.new span{
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: #0051A0;
+}
+
+.pdBtn p{
+    background-color: #0050a031;
+    font-size: 11px;
+    text-align: center;
+    padding: 2px 5px;
+    color: #0051A0;
+    border-radius: 20px;
+    margin-top: 18px;
+}
+
+.pdBtn button{
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #0050a031;
+    color: #0051A0; 
+    cursor: pointer; 
+}
+
+.moreBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.moreBtn button{
+    outline:none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0051A0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.shopWrap2{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+    align-items: center;  
+    gap: 25px;
+    margin-bottom: 15vh;
+
+}
+
+.wrap2header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wrap2header h1{
+    font-size: 43px;
+    font-family: Mochiy Pop One;
+}
+
+.wrap2header span{
+    color: #0051A0;
+}
+.slideProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    overflow: hidden;
+    gap: 50px;
+    /* border: 1px solid; */
+}
+
+.slide-product{
+    width: 382px;
+    height: 483px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+     
+}
+
+.slidBtn{
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}

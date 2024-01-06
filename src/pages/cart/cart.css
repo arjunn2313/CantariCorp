@@ -1,0 +1,92 @@
+.cartHeaderCon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+.cartHeaderConWrapper{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 70px;
+    box-shadow: 0px 0px 4px #0051a0;
+}
+
+.cartImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.cartImg img{
+    width: 50px;
+    height: 50px;
+}
+
+.cartPname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.cartPname h6{
+    font-size: 14px;
+}
+
+.cartQuantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.cartBuy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.cartBuy button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    gap: 4px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pDelete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cartEmpty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    height: 20vh;
+}
+
+.cartEmpty h6{
+    font-size: 25px;
+    font-weight: normal;
+}

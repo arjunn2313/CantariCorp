@@ -1,0 +1,164 @@
+.prodDetaild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 5vh;
+    gap: 15px;
+    margin-bottom: 20vh;
+}
+
+.prodWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85%;
+}
+
+.detailsContainer{
+ display: flex;
+gap: 40px;
+  
+}
+
+.detImgCon{
+    width: 521px;
+    height: 602px;
+    background-color: #0050a03b;
+    border-radius: 40px;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detImgCon img{
+    width: 284px;
+    height: 420px;
+    /* transform: rotate(335deg); */
+}
+
+.p-details h2{
+    font-size: 33px;
+}
+
+.p-slide2{
+    width: 50%;
+}
+
+.p-desc{
+    padding-top: 20px;
+}
+
+.p-desc h6{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.p-desc ul{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+}
+
+.sm-1{
+    margin-top: 20px;
+    width: 70px;
+    height: 72px;
+    border: 6px solid #0050a04d;
+    border-radius: 15px;
+    display: flex;
+}
+
+#imgfc{
+    width: 45px;
+    height: 50px;
+    margin: auto;
+}
+
+.small-pd {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.small-pd img{
+    width: 30px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.incridients{
+    padding-top: 20px;
+}
+
+.incridients h6{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.incridients ul{
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 40px;
+    line-height: 1.8rem;
+}
+
+.pfooter{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.buyBtn{
+    color: #fff; 
+    background-color: #0051A0;
+    border:none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.p-details span{
+    background-color: #0050a01e;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: #0051A0;
+    font-weight: 600;
+}
+
+.navHome span{
+    background-color: #0050a01e;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pNosBtnn {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.qntyCon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.qntyNum{
+    background-color:#0050a027;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
