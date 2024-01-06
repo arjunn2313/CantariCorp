@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/CantariCorp/static/css/main.b99a5ea5.css",
-    "main.js": "/CantariCorp/static/js/main.dc92bae7.js",
+    "main.js": "/CantariCorp/static/js/main.6147ba55.js",
     "static/js/787.d5fa4d18.chunk.js": "/CantariCorp/static/js/787.d5fa4d18.chunk.js",
     "static/media/p3.png": "/CantariCorp/static/media/p3.f478590d6df40658fd2b.png",
     "index.html": "/CantariCorp/index.html",
     "main.b99a5ea5.css.map": "/CantariCorp/static/css/main.b99a5ea5.css.map",
-    "main.dc92bae7.js.map": "/CantariCorp/static/js/main.dc92bae7.js.map",
+    "main.6147ba55.js.map": "/CantariCorp/static/js/main.6147ba55.js.map",
     "787.d5fa4d18.chunk.js.map": "/CantariCorp/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b99a5ea5.css",
-    "static/js/main.dc92bae7.js"
+    "static/js/main.6147ba55.js"
   ]
 }
